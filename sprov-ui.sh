@@ -339,7 +339,7 @@ install_bbr() {
 }
 
 update_shell() {
-    wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/sprov065/sprov-ui/raw/master/sprov-ui.sh
+    wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/cyrilliew/sprov-ui/raw/master/sprov-ui.sh
     if [[ $? != 0 ]]; then
         echo ""
         echo -e "${red}下载脚本失败，请检查本机能否连接 Github${plain}"
